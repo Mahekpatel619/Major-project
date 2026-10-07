@@ -1,0 +1,14 @@
+{
+  "name": "unfazed",
+  "version": "1.0.0",
+  "description": "UNFAZED - Complete Full-Stack Therapist Practice Management Platform",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": ["therapy", "mental-health", "saas", "practice-management"],
+  "author": "UNFAZED Team",
+  "license": "ISC"
+}

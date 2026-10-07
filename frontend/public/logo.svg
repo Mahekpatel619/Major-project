@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="unfazed-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4672bc" />
+      <stop offset="50%" stop-color="#3457a4" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#unfazed-grad)" />
+  <!-- Calming U + Lotus / Serene Flow Path -->
+  <path d="M30 32 V54 C30 65 39 72 50 72 C61 72 70 65 70 54 V32" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="42" r="6" fill="#38bdf8" />
+</svg>
