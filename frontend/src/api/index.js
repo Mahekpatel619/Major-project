@@ -43,7 +43,7 @@ export const paymentApi = {
   verifyPayment: (data) => api.post('/payments/verify', data),
   getTherapistPayments: () => api.get('/payments'),
   getClientPayments: () => api.get('/payments/client'),
-  getInvoiceUrl: (id) => `/api/payments/${id}/invoice`,
+  getInvoiceUrl: (id) => `${import.meta.env.VITE_API_BASE_URL}/payments/${id}/invoice`,
 };
 
 export const packageApi = {
